@@ -10,4 +10,4 @@ $(EXEC): $(OBJ)
 	$(CC) -c $<
 
 clean:
-	rm -f $(EXEC)
+	del $(EXEC).exe
